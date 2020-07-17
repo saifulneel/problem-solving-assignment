@@ -24,17 +24,14 @@ function woodCalculator(chair, table, bed){
 function brickCalculator(floorNumber){
     if (floorNumber <= 10 && floorNumber >=1){
         let brickNumber = floorNumber * 15000;
-
         return brickNumber;
     }
     else if (floorNumber > 10 && floorNumber <= 20){
         let brickNumber = ((floorNumber - 10) * 12000) + 150000;
-
         return brickNumber;
     }
     else if (floorNumber > 20){
         let brickNumber = ((floorNumber - 20) * 10000) + 270000;
-
         return brickNumber;
     }
     else{
